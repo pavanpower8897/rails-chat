@@ -1,0 +1,16 @@
+.avatar {
+  max-height:30px;
+  border-radius: 15px;
+  width:auto;
+  vertical-align:middle;
+}
+
+.room-nav-link {
+  border: 1px solid lighten;
+  background: lighten;
+
+  & + .room-nav-link {
+    border-top: 0 none;
+  }
+}
+
